@@ -97,18 +97,37 @@
 // } 
 
   //promise function 
-  let pro = new Promise((res, rej)=>{
-   let khilo ='pizza khawogai'
-   if (khilo == 'piazza khawogai'){
-      res ('han bhai zarror khawnogaa')
-   }
-   else{
-      res('nhi khana muji bhai ')
-   }
-  })
-  pro.then((data)=>{
-   document.write (data)
-  })
-.catch((err)=>{
-   console.log(err)
-})
+//   let pro = new Promise((res, rej)=>{
+//    let khilo ='pizza khawogai'
+//    if (khilo == 'piazza khawogai'){
+//       res ('han bhai zarror khawnogaa')
+//    }
+//    else{
+//       res('nhi khana muji bhai ')
+//    }
+//   })
+//   pro.then((data)=>{
+//    document.write (data)
+//   })
+// .catch((err)=>{
+//    console.log(err)
+// })
+//NORMAL FUNCTION / TREDITIONAL FUNCTION
+// function abc (){
+//    console.log('Hello Web Developer ')
+// }
+// abc()
+//FUNCTION EXPRESSION
+// let foo = function(){
+   // console.log('Hello Web Developer This the facts')
+// }
+// foo()
+// ARROW FUNCTION 
+// let abc = () =>{
+   // console.log('Hello World ')
+// }
+// abc()
+
+//Ternary Opertor
+// var a = (5 == 5 ? 'han ok hai bhai tera': 'kahan ok hai tera bhai')
+// document.write(a)
