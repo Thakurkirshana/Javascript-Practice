@@ -131,3 +131,58 @@
 //Ternary Opertor
 // var a = (5 == 5 ? 'han ok hai bhai tera': 'kahan ok hai tera bhai')
 // document.write(a)
+
+// ecma script
+// ye ourhide kardeta hai 
+//global scope 
+
+// var firstName = 'Kirshan '
+// {
+//    var firstName ='Thakur'
+//    console.log(firstName)
+// }
+// console.log(firstName)
+
+// let firstName = 'Kirshan '
+//  {
+//     let firstName ='Thakur'
+//     console.log(firstName)
+//  }
+//  console.log(firstName)
+
+// promise men 3 stage hoti hain   >>>>>>
+// >>>>[1]   panding      [2]   resolve & fullfil       [3]  delete 
+
+// API { application programming interface }>>>>>>>>>>>>>>>>>
+// franend data backend men hota haii or en k btwn men server hoya hai 
+//   Frantend and backend k btwn men Server hota hai 
+// Server and backend k btw men API hota hai
+// API men deta hamisha array of Object ki form men hota hai 
+
+// JSON javascript object Notition ki form men hota hai 
+  let pro = new Promise((res,rej) =>{
+   let hanbhai ='kase ho'
+if (hanbhai== 'kase ho bhai'){
+   res('han bhai theek hai')
+}
+else{
+   rej('nhi hai bahi ')
+}
+  })
+pro.then((data)=>{
+   console.log(data)
+}).catch((err )=>{
+   console.log(err)
+})
+// let pro = new Promice((res,rej) => {
+//    let wordCup ="pakistan"
+//     if(WordCup =="PAKISTAN"){
+//     res ('har gia apka bhai ')
+//     }
+//  else{
+//      rej('han bhai kua howa apko')})
+
+//  pro.then((data)=>{ console.log(data)})
+//  .catch((err)=>{
+//  console.log(err)})
+              

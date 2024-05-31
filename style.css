@@ -1,0 +1,164 @@
+/* * {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+.card {
+    width: 47%;
+    background-color: rgb(255, 255, 255);
+    margin: 100px;
+    padding-bottom: 25px;
+    border-radius: 20px 20px;
+    
+}
+
+.header img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px 15px;
+
+}
+
+.header {
+    margin-left: 30px;
+    padding-top: 20px;
+    width: 90%;
+}
+
+.header h1 {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 16px;
+}
+.preparation {
+    background-color: rgb(255, 223, 228,0.5);
+    margin-top: 20px;
+    padding: 40px 40px ;
+    width: 80%;
+    border-radius: 10px 10px;
+}
+
+.preparation h3 {
+    color: rgb(138, 4, 138);
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
+.preparation ul {
+    padding-left: 45px;
+}
+
+.preparation li b {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+.preparation li::marker {
+    color: brown;
+}
+
+.ingredients {
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+
+
+.ingredients ul {
+    padding-left: 23px;
+}
+
+.ingredients li {
+    font-size: 17px;
+
+}
+.ingredients hr {
+    width: 90%;
+    margin-top: 30px;
+}
+
+.ingredients li {
+    line-height: 1.5rem;   
+}
+
+.ingredients li::marker {
+    color: brown;
+}
+
+
+.ingredients h2,
+.instructions h2,
+.nutition h2 {
+    margin-bottom: 8px;
+    color: brown;
+}
+
+.instructions {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 89%; 
+}
+
+
+.instructions hr {
+    margin-top: 30px;
+}
+
+
+.instructions ol {
+    padding-left: 20px;
+}
+
+
+.instructions li {
+    padding-bottom: 10px;
+    line-height: 1.4rem;
+    font-size: 16px;
+}
+
+
+.instructions li::marker {
+    color: brown;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.nutition {
+    margin-left: 30px;
+    margin-top: 40px;   
+    width: 90%;
+    
+}
+
+.nutition p {
+    font-size: 17px;
+    color: rgb(114, 110, 110);
+    
+}
+
+.nutition hr {
+    margin-top: 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+span {
+    color: brown;
+    font-size: 17px;
+    font-weight: bold;
+} */
