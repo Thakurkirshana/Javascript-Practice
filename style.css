@@ -162,3 +162,40 @@ span {
     font-size: 17px;
     font-weight: bold;
 } */
+
+/* .card {
+    width: 47%;
+    background-color: rgb(255, 255, 255);
+    margin: 100px;
+    padding-bottom: 25px;
+    border-radius: 20px 20px;
+     */
+/* }////// */
+
+body{
+    background-color: rgb(55, 121, 202);
+    color: rgb(255, 254, 254);
+    
+}
+#red:hover {
+    transform: scale(1.2);
+    transition: 1S;
+}
+.red:hover {
+    transform: scale(1.2);
+    transition: 1S;
+}
+#red:checked{
+accent-color: rgb(208, 8, 8);
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+
+}
+/* div{
+background-image: url(./image-omelette.jpeg);
+border-radius: 5px;
+} */
