@@ -300,7 +300,7 @@ var btn = document.getElementById('btn')
 //    }
 //  }
 //  },100)
-// 
+
 
 function nextQuestion(){
 var getOptions = document.getElementsByName('options')
@@ -316,15 +316,15 @@ if(selectedAns == correctOption){
 }
 console.log(selectedAns)
 
-// console.log(selectedQues)
-//  console.log(getOptions[i].value)  
+console.log(selectedQues)
+ console.log(getOptions[i].value)  
 }
 
-   // var selectedValue = getOptions[i].value
-   // var selectedQues = questions[index]
-   // console.log (selectedQues)
-   // // console.log(getOptions[i].value)
-   // console.log(getOptions[i])
+   var selectedValue = getOptions[i].value
+   var selectedQues = questions[index]
+   console.log (selectedQues)
+   // console.log(getOptions[i].value)
+   console.log(getOptions[i])
    getOptions[i].checked = false
   }
 btn.disabled = true
