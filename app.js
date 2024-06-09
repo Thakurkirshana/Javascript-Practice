@@ -185,16 +185,7 @@
 //  pro.then((data)=>{ console.log(data)})
 //  .catch((err)=>{
 //  console.log(err)})
-              
-
-
-
-
-
-
-
-
-
+        
 var questions = [
    {
        question: ' 1.   What does HTML stand for?',
@@ -203,6 +194,7 @@ var questions = [
        option3: 'Home Tool Markup Language',
        correctOption: "Hypertext Markup Language"
    },
+   
    {
        question: '2. Who is making the Web standards?',
        option1: 'Google',
@@ -296,7 +288,7 @@ var btn = document.getElementById('btn')
 //    if(min<0){
 //       min = 1
 //       sec =59
-//       nextQuestion()
+//     nextQuestion()
 //    }
 //  }
 //  },100)
@@ -355,9 +347,6 @@ function clicked(){
 // var index = 0
 // var btn = document.getElementById('btn')
 
-
-
-
 // function nextQuestion (){
 
 //      var getOptions = document.getElementsByClassName('options')
@@ -368,8 +357,6 @@ function clicked(){
 //       getOptions[i].checked = false
 
 // }
-
-
 //  btn.disabled = true
 
 //    if (index > questions.length - 1){
@@ -385,8 +372,6 @@ function clicked(){
 // }
 // }
 // nextQuestion()
-
-
 
 // function clicked(){
    
