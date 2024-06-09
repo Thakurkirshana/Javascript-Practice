@@ -222,3 +222,18 @@ h1{
     border-radius: 34px;
     text-transform: uppercase;
 }
+
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     /* background-color: #080303; */
+     background: linear-gradient(45deg, #00ff4c, #0d0359, #ff8000, #ff0000);
+
+background-size: 300% 300%; 
+
+
+
+  }
