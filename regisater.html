@@ -1,0 +1,61 @@
+<body>
+  <h1 id="ok">About Information You</h1>
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <link rel="stylesheet" href="style2.css" />
+
+    <!-- Replace with your Access Key -->
+    <input
+      type="hidden"
+      name="access_key"
+      value="6cc61c92-68f6-4ed7-8e6e-258645084894"
+    />
+
+    <!-- Form Inputs. Each input must have a name="" attribute -->
+    <input
+      placeholder="Enter The Name"
+      type="text"
+      name="name"
+      required
+    /><br /><br />
+    <input
+      placeholder="Enter The Email"
+      type="email"
+      name="email"
+      required
+
+    />
+    <br><br>
+    <input type="date" name="" id=""><br /><br />
+    <input placeholder="About You" name="message" required></input
+    ><br /><br />
+    <label for="">Gender:</label><input required type="radio" name="Gender" value="Male"> <label for="Male">Male</label>
+    <input type="radio" name="Gender" value="Female"> <label for="Female">Female</label>
+    <br><br>
+    <label for="">Mobile No:</label><input required type="number" name="" id=""><br><br>
+    <!-- Honeypot Spam Protection -->
+    <input
+      type="checkbox"
+      name="botcheck"
+      class="hidden"
+      style="display: none"
+    />
+
+    <tr><td><label  for="">Country:</label><select name="" id="">
+      <option selected disabled value=""> Choose Country</option>
+      <option value=""> Pakistan</option>
+      <option value="">Afganistan</option>
+      <option value="">India</option>
+      <option value="">Amarica</option>
+      <option value="">Asteria</option>
+      <option value="">Irqe</option>
+      <option value="">China</option>
+
+  </select>
+  <br><br>
+  <label for="">Photo:</label><input readonly  type="file" name="" id=""><br><br>
+    <!-- Custom Confirmation / Success Page -->
+    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+    <button class="submit" type="submit">Submit Form</button>
+  </form>
+</body>
